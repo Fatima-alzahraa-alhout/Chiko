@@ -7,18 +7,83 @@
   box-sizing: border-box; 
   font-family: "Playwrite HR", cursive; 
 } 
+.mar{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 .topbar p i{ 
   color: chocolate; 
    
 } 
-.navbar-brand  .h1 , .banner .h1{ 
+.navbar-brand  .h1 ,.navbar-brand{ 
 text-shadow: 2px 2px 2px #432007; 
  
 } 
-.nav .nav-link , .list-group .list-group-link ,.banner p{ 
+.banner .h1{
+  text-shadow: 2px 2px 2px #432007; 
+  animation: bannerH1 3s ease-in-out 1;
+}
+@keyframes bannerH1 {
+  0% {
+    transform: translateX(1000px);
+  }
+  50% {
+    transform: translateX(-200px);
+  }
+  75% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.nav .nav-link , .list-group .list-group-link  { 
   text-shadow: 1px 1px white; 
   color: #432007; 
 } 
+.banner p {
+  text-shadow: 1px 1px white; 
+  color: #432007;  
+  animation: bannerP 3s ease-in-out 1;
+}
+@keyframes bannerP{
+  0% {
+    transform: translateX(-1000px);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  75% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.banner button a{
+  background-color: chocolate;
+  padding: 10px;
+  color: #432007;
+  text-shadow: 1px 1px white;
+  outline: 0.2rem solid chocolate;
+  outline-offset: 4px;
+  cursor: pointer;
+  animation: bannerBtn 4s ease-in-out 1;
+  text-decoration: none;
+}
+.banner button a:hover{
+  color: white;
+  opacity: 0.7;
+}
+@keyframes bannerBtn {
+  0% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .offcanvas , .list-group  .list-group-item{ 
   background-color: chocolate; 
 } 
@@ -49,4 +114,15 @@ text-shadow: 2px 2px 2px #432007;
   background-repeat: no-repeat ;
   background-position: center;
   background-size: cover;
+}
+.about .card img , .card2 {
+  height: 50vh;
+  box-shadow:  5px 5px 5px 5px black; 
+}
+.card2 h3{
+  text-shadow: 1px 1px  #432007; 
+  color: chocolate;  
+}
+.card2 p{
+  color: #432007;
 }
