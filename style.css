@@ -1,0 +1,46 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playwrite+HR:wght@100..400&display=swap"); 
+ 
+ *{ 
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+  font-family: "Playwrite HR", cursive; 
+} 
+.topbar p i{ 
+  color: chocolate; 
+   
+} 
+.navbar-brand  .h1{ 
+text-shadow: 2px 2px 2px #432007; 
+ 
+} 
+.nav .nav-link , .list-group .list-group-link{ 
+  text-shadow: 1px 1px white; 
+  color: #432007; 
+} 
+.offcanvas , .list-group  .list-group-item{ 
+  background-color: chocolate; 
+} 
+.bi-list{ 
+    
+  text-shadow: 2px 2px #432007; 
+  cursor: pointer; 
+  animation: bounce 3s ease-in-out infinite; 
+} 
+ 
+@keyframes bounce { 
+  0% { 
+    transform: scale(1); 
+  } 
+  50% { 
+    transform: scale(1.5); 
+  } 
+  100% { 
+    transform: scale(1); 
+  } 
+} 
+.bi-x-lg{ 
+  text-shadow: 1px 1px white; 
+  color: #432007; 
+} 
