@@ -11,11 +11,11 @@
   color: chocolate; 
    
 } 
-.navbar-brand  .h1{ 
+.navbar-brand  .h1 , .banner .h1{ 
 text-shadow: 2px 2px 2px #432007; 
  
 } 
-.nav .nav-link , .list-group .list-group-link{ 
+.nav .nav-link , .list-group .list-group-link ,.banner p{ 
   text-shadow: 1px 1px white; 
   color: #432007; 
 } 
@@ -44,3 +44,9 @@ text-shadow: 2px 2px 2px #432007;
   text-shadow: 1px 1px white; 
   color: #432007; 
 } 
+.banner{
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) ,url('./images/banner.jpg');
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-size: cover;
+}
