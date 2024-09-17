@@ -38,7 +38,8 @@
           <nav class="navbar ">
             <a href="./index.html" class="navbar-brand text-decoration-none text-light fs-1">Chiko</a>
             <button class="btn fs-2   " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-id">
-              <i class="bi bi-list fs-1 ms-2 text-light  position-fixed  top-0 end-0 me-4 mt-lg-5 mt-md-0 " style="z-index: 1;"></i>
+              <i class="bi bi-list fs-1 ms-2 text-light  position-fixed  top-0 end-0 me-4 mt-lg-5 mt-md-0 "
+                style="z-index: 1;"></i>
             </button>
             <div class="offcanvas offcanvas-end " id="offcanvas-id">
               <div class="offcanvas-header ">
@@ -111,7 +112,7 @@
       </div>
     </div>
   </section>
-  <section >
+  <section>
     <div class="container-fluid  bg-black mar services">
       <div class="row">
         <div class="col-md-12 mb-5">
@@ -170,32 +171,53 @@
             <h2 class="h2 ">WHAT IS SAYS OUR CLIENTS</h2>
           </div>
         </div>
-     <div class="col-md-12  mt-5">
-    <div id="slidescarousel" class="carousel slide  w-100" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active d-flex flex-column justify-content-center align-items-center">
+        <div class="col-md-12  mt-5">
+          <div id="slidescarousel" class="carousel slide  w-100" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active d-flex flex-column justify-content-center align-items-center">
                 <img src="./images/user.jpg" class="d-block " alt="User image">
                 <h2 class="h2 mt-4">Lorem, ipsum.</h2>
-                <p class="text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit quas rem illum distinctio eaque?</p>
-            </div>
-            <div class="carousel-item d-flex flex-column justify-content-center align-items-center">
+                <p class="text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit quas
+                  rem illum distinctio eaque?</p>
+              </div>
+              <div class="carousel-item d-flex flex-column justify-content-center align-items-center">
                 <img src="./images/user.jpg" class="d-block " alt="User image">
                 <h2 class="h2 mt-4">Lorem, ipsum.</h2>
-                <p class="text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit quas rem illum distinctio eaque?</p>
+                <p class="text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit quas
+                  rem illum distinctio eaque?</p>
+              </div>
             </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#slidescarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-danger rounded-circle" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slidescarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-danger rounded-circle" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
-        <button class="carousel-control-prev " type="button" data-bs-target="#slidescarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bg-danger rounded-circle" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#slidescarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-danger rounded-circle" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+
+
+      </div>
     </div>
-</div>
-
-
+  </section>
+  <section>
+    <div class="container-fluid  contact">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <h2 class="h2 d-flex justify-content-center mt-5">GET IN TOUCH</h2>
+        </div>
+        <div class="col-md-12">
+          <form action="" class="form d-flex flex-column  align-items-center">
+            <input type="text" class="form-control w-50 w-md-100 p-2 mt-5" placeholder="Full Name">
+            <input type="email" class="form-control w-50 w-md-100 p-2 mt-5" placeholder="Your Email">
+            <input type="number" class="form-control w-50 w-md-100 p-2 mt-5" placeholder="Phone Number">
+            <textarea name="" id="" rows="7" cols="5" class="form-control w-50 w-md-100 p-2 mt-5" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn-outline-warning rounded-pill mb-3 mt-5">Submit</button>
+            
+          </form>
+        </div>
       </div>
     </div>
   </section>
