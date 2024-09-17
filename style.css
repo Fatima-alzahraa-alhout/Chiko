@@ -210,3 +210,7 @@
   width: 150px;
 
 }
+footer a i:hover{
+color: chocolate;
+cursor: pointer;
+}
