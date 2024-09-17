@@ -38,8 +38,7 @@
           <nav class="navbar ">
             <a href="./index.html" class="navbar-brand text-decoration-none text-light fs-1">Chiko</a>
             <button class="btn fs-2   " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-id">
-              <i class="fa-solid fa-bars text-light position-fixed z-1 top-0 end-0 me-4 mt-3 "></i>
-              <i class="bi bi-list fs-1 ms-2 text-light  position-fixed z-1 top-0 end-0 me-4 mt-lg-5 mt-md-0"></i>
+              <i class="bi bi-list fs-1 ms-2 text-light  position-fixed  top-0 end-0 me-4 mt-lg-5 mt-md-0 " style="z-index: 1;"></i>
             </button>
             <div class="offcanvas offcanvas-end " id="offcanvas-id">
               <div class="offcanvas-header ">
@@ -112,7 +111,7 @@
       </div>
     </div>
   </section>
-  <section class="vh-100">
+  <section >
     <div class="container-fluid  bg-black mar services">
       <div class="row">
         <div class="col-md-12 mb-5">
@@ -160,6 +159,43 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container mar clients">
+      <div class="row justify-content-center">
+        <div class="col-md-12 ">
+          <div class="d-flex justify-content-center">
+            <h2 class="h2 ">WHAT IS SAYS OUR CLIENTS</h2>
+          </div>
+        </div>
+     <div class="col-md-12  mt-5">
+    <div id="slidescarousel" class="carousel slide  w-100" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active d-flex flex-column justify-content-center align-items-center">
+                <img src="./images/user.jpg" class="d-block " alt="User image">
+                <h2 class="h2 mt-4">Lorem, ipsum.</h2>
+                <p class="text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit quas rem illum distinctio eaque?</p>
+            </div>
+            <div class="carousel-item d-flex flex-column justify-content-center align-items-center">
+                <img src="./images/user.jpg" class="d-block " alt="User image">
+                <h2 class="h2 mt-4">Lorem, ipsum.</h2>
+                <p class="text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit quas rem illum distinctio eaque?</p>
+            </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#slidescarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-danger rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slidescarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-danger rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+
       </div>
     </div>
   </section>

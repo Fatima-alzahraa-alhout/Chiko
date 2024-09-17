@@ -193,3 +193,14 @@
   text-shadow: 1px 1px white;
   color: #432007;
 }
+.clients h2{
+  text-shadow: 2px 1px  #432007;
+  color: chocolate;
+}
+.clients p{
+  color:  #432007;
+}
+.clients .carousel-item img{
+  width: 150px;
+
+}
